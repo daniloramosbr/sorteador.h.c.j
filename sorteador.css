@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    
+    background: url(imgs/OAK41Y0.jpg) no-repeat top center/cover;
+    height: 100vh;
+    background-position: 40%;
+    }
+    header {
+        color: white;
+        
+    }
+    section {
+       
+    color: white;
+    
+    }
+    footer {
+        padding: 30px;
+        width: 100%;
+        max-width: 588px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin: auto
+    }
+    h1 {
+        padding: 5px 0;
+       margin: auto;
+       text-align: center;
+        width: 100%;
+        max-width: 588px;
+        background-color: rgba(0, 0, 0, 0.050);
+        border-radius: 30%;
+    }
+    .container {
+        border-radius: 2%;
+        padding: 30px 0 0;
+        width: 100%;
+        max-width: 588px;
+        background-color: rgba(0, 0, 0, 0.1);
+        margin: 150px auto 0px;
+        border: 2px solid rgb(255, 255, 255);
+      
+     
+        
+    }
+    .container input {
+        cursor: pointer;
+       font-weight: bold;
+        width: 40px;
+       
+    }
+    .container .textNum {
+        font-size: 25px;
+        text-align: center;
+    }
+    .container .textInput {
+       
+        padding: 30px  0 0 0;
+    }
+    .container .textRes input {
+        font-size: 20px;
+        width: 100%;
+        max-width: 588px;
+        height: 50px;
+    display: block;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    }
+    .container input:hover {
+    background-color: rgb(193, 193, 193);
+    }
+    #txt6 {
+        letter-spacing: 1px;
+        padding: 30px 0;
+        font-size: 35px;
+        text-align: center;  
+    }
+    .numsort {
+        margin-top: auto;
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .regress {
+      text-align: center;
+      font-size: 45px;
+      font-weight: bold
+    }
