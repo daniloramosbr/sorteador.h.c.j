@@ -52,6 +52,7 @@
         cursor: pointer;
        font-weight: bold;
         width: 40px;
+        text-align: center;
        
     }
     .container .textNum {
@@ -92,4 +93,7 @@
       text-align: center;
       font-size: 45px;
       font-weight: bold
+    }
+    .resnumber {
+        font-size: 11px;
     }

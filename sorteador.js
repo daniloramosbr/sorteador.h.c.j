@@ -11,6 +11,7 @@ const textnum = document.querySelector('.textNum')
 const textinput = document.querySelector('.textInput')
 const NumSort = document.querySelector('.numsort')
 const regress = document.querySelector('.regress')
+const resnumber = document.querySelector('.resnumber')
 
 
 class Sorteador {
@@ -24,6 +25,7 @@ class Sorteador {
     NumSort.hidden = true
     buttonSortTxt.value = 'SORTEAR!'
     this.resul = ''
+    resnumber.innerText = ''
   }
   Action(min, max) {
     if (buttonOneTxt.value < 1 || buttonTwoTxt.value < 1 || buttonTreeTxt.value < 1) {
@@ -41,19 +43,7 @@ class Sorteador {
     if (buttonOneTxt.value > 1) {
       NumSort.innerText = 'NÚMEROS SORTEADOS:'
     }
-   
-    if (buttonRegresTxt.checked) {
-      if(textinput.hidden == true) {
-        this.Back()
-        return 
-      }
-      regress.hidden = false
-      textinput.hidden = true 
-      textnum.hidden = true 
-      buttonSortTxt.value = 'VOLTAR'
-      return 
-    }
-    
+    resnumber.innerText = `NÚMEROS ADICIONADOS: ${buttonOneTxt.value}`
     NumSort.hidden = false
     textinput.hidden = true
     textnum.hidden = true
