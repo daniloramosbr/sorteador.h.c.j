@@ -5,9 +5,7 @@
     }
     body {
     
-    background: url(imgs/OAK41Y0.jpg) no-repeat top center/cover;
-    height: 100vh;
-    background-position: 40%;
+        background-image: linear-gradient(to left, rgb(188, 0, 157), rgb(0, 160, 199));
     }
     header {
         color: white;
@@ -53,10 +51,11 @@
        font-weight: bold;
         width: 40px;
         text-align: center;
+        font-size: 19px;
        
     }
     .container .textNum {
-        font-size: 25px;
+        font-size: 30px;
         text-align: center;
     }
     .container .textInput {
