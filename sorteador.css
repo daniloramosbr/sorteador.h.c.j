@@ -95,3 +95,11 @@
     .resnumber {
         font-size: 11px;
     }
+    @media (max-width: 600px) {
+    .textNum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    } 
+    }
