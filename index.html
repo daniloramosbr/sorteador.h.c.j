@@ -1,58 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sorteador de Números</title>
-    <link rel="stylesheet" href="sorteador.css">
-</head>
-<body>
-   <header>
-    <h1 >SORTEADOR DE NÚMEROS</h1>
-   </header> 
-   <section>
-    <div class="container">
+    <link rel="stylesheet" href="sorteador.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SORTEADOR DE NÚMEROS</h1>
+    </header>
+    <section>
+      <div class="container">
+        <div class="numsort" hidden>NÚMERO SORTEADO:</div>
 
-    <div class="numsort" hidden>
-    NÚMERO SORTEADO:
-    </div>
-
-
-    <div class="textNum" >
-
-        Sortear <input type="number" class="txt1" value="1"> <span class="txtchange">Número entre</span> 
-        <input type="number" class="txt2" value="1"> e 
-        <input type="number" class="txt3" value="50">
-      
-    </div>
-    <div class="textInput" hidden>
-           <p>
-            <input type="checkbox" class="txt4" > 
-           </p> 
-           <p>
-            <input type="checkbox" class="txt5" > 
-           </p> 
-        
-    </div>
-    <div id="txt6">
-      
-    </div>
-    <div class="resnumber">
-       
-    </div>
-        <div class="textRes">
-           <p>
-            <input type="button" value="SORTEAR!" href="sorteadorRes.html" class="txt7">
-           </p>
+        <div class="textNum">
+          Sortear <input type="number" class="txt1" value="1" />
+          <span class="txtchange">Número entre</span>
+          <input type="number" class="txt2" value="1" /> e
+          <input type="number" class="txt3" value="50" />
         </div>
-    </div>
-   </section>
-   <footer>
-    <p>
-        Desenvolvido por &copy;DaniloRamos
-    </p>
-   </footer>
-   <script src="sorteador.js"></script>
-</body>
+        <div class="textInput" hidden>
+          <p>
+            <input type="checkbox" class="txt4" />
+          </p>
+          <p>
+            <input type="checkbox" class="txt5" />
+          </p>
+        </div>
+        <div id="txt6"></div>
+        <div class="resnumber"></div>
+        <div class="textRes">
+          <p>
+            <input
+              type="button"
+              value="SORTEAR!"
+              href="sorteadorRes.html"
+              class="txt7"
+            />
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Desenvolvido por &copy;DaniloRamos</p>
+    </footer>
+    <script src="sorteador.js"></script>
+  </body>
 </html>
